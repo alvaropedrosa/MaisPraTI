@@ -1,0 +1,15 @@
+body{
+    background-color: gray;
+}
+
+h1 {
+    color: blue;
+}
+
+button {
+    background-color: aqua;
+}
+button:hover{
+    background-color: aquamarine;
+}
+

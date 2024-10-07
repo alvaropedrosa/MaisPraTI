@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(128, 128, 128, 0.336);
+}
+
+.navHoriz {
+    background-color: rgba(87, 87, 87, 0.836);
+    width: auto;
+    height: 10vh;
+    position: flex;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: right;
+    box-shadow: 4px 0 8px;
+    padding-top: 30px;
+    margin: 4px;
+    border-radius: 20px;
+}
+.navHoriz ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.navHoriz li {
+    margin: 5px;
+}
+
+.navHoriz li a {
+    text-decoration: rgb(104, 104, 104);
+}
+
+.container {
+    background-color: rgba(209, 209, 209, 0.76);
+    height: 50%;
+    position: flex;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 0 8px;
+    padding-top: 30px;
+    margin: 20px;
+    border-radius: 5%;
+    flex-direction: column;
+}
+
+.cadastro {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    width: 100%;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+button {
+    border-radius: 3px;
+    width: 150px;
+    align-content: center;
+    align-self: center;
+}
+
+.lista {
+    margin: 15px;
+}
+
+h3 {
+    text-align: center;
+}
