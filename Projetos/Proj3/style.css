@@ -1,26 +1,86 @@
 
 .container {
+    
+}
+
+.container2 {
     background-image: url(./Images/Detonado1.gif);
-    background-size: contain;
-    width: 100px;
-    height: 500px;
+    background-size: cover;
+    height: 100;
     align-self: center;
     border: solid 2px;
     border-radius: 2%;
 }
 
-.bg-navbar {
+#navbarNav {
+    align-self: flex-end;
+}
+
+.navbar {
+    flex-direction: row;
+    text-align: right;
+}
+
+.navbar-brand {
     background-image: url(./Images/Detonado2.gif);
     background-size: cover;
-    width: 100vh;
-    height: 50px;
+    width: 300px;
+    height: 150px;
     border: solid 1px;
+    border-radius: 30%;
+    margin-left: 10px;
 }
+/* .bg-navbar {
+    background-image: url(./Images/Detonado2.gif);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    border: solid;
+} */
+
+.navbar-nav {
+    background-image: url(./Images/livroAbrindo2.gif);
+    flex-direction: column;
+    border: solid 1px;
+    margin-left: 2px;
+}
+
+
+/* .sections {
+    background-image: url(./Images/Detonado1.gif);
+    background-size: cover;
+} */
 
 .rodape {
     position: fixed;
     bottom: 0;
-    background-color: #000;
+    background-color: #6d6b6b;
     width: 100%;
+    height: 50px;
     text-align: center;
 }
+
+.inicio {
+    background-image: url();
+}
+
+.nav-dicas {
+    background-image: url(./Images/codigos.gif);
+    background-size: cover;
+    color: #ffffff;
+    
+}
+
+.nav-detona {
+    background-image: url(./Images/livroAbrindo2.gif);
+    background-size: contain;
+    color: black;
+    height: 20px;
+    
+}
+
+.sites {
+    background-image: url(./Images/);
+}
+
+
