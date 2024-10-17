@@ -1,12 +1,13 @@
 
 .container {
-    
+    height: 100px;
+    width: 100px;
 }
 
 .container2 {
     background-image: url(./Images/Detonado1.gif);
     background-size: cover;
-    height: 100;
+    height: 100px;
     align-self: center;
     border: solid 2px;
     border-radius: 2%;
@@ -21,10 +22,14 @@
     text-align: right;
 }
 
+aside {
+    flex-direction: column;
+}
 .navbar-brand {
     background-image: url(./Images/Detonado2.gif);
     background-size: cover;
-    width: 300px;
+    flex-direction: column;
+    width: 283px;
     height: 150px;
     border: solid 1px;
     border-radius: 30%;
@@ -46,10 +51,9 @@
 }
 
 
-/* .sections {
-    background-image: url(./Images/Detonado1.gif);
-    background-size: cover;
-} */
+.sections {
+    background-color: #999999;
+} 
 
 .rodape {
     position: fixed;

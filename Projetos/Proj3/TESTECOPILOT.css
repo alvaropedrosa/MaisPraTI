@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.cabecalho {
+    background-image: url(./Images/Detonado2.gif);
+    background-size: cover;
+    flex-direction: column;
+    width: 283px;
+    height: 150px;
+    border: solid 1px;
+    border-radius: 30%;
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: #ddd;
+    text-align: center;
+    align-self: center;
+}
+
+section {
+    padding: 1em;
+    background-color: #f4f4f4;
+}
+
+aside {
+    padding: 1em;
+    background-color: #ddd;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content {
+    flex: 3;
+}
+
+.sidebar {
+    flex: 1;
+}
